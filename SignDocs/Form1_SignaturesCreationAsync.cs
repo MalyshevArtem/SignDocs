@@ -75,12 +75,12 @@ namespace SignDocs
             {
                 PdfPage docPage = doc.Pages[0];
 
-                if (docPage.Width.Point == 595.0 && docPage.Height.Point == 842.0)
+                if (docPage.Width.Point == 612.0 && docPage.Height.Point == 792.0)
                 {
                     return 4;
                 }
                 
-                if (docPage.Width.Point == 842.0 && docPage.Height.Point == 595.0)
+                if (docPage.Width.Point == 792.0 && docPage.Height.Point == 612.0)
                 {
                     return 6;
                 }
